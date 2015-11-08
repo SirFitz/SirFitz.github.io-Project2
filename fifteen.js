@@ -23,6 +23,7 @@ function initialize(){
      tiles[i].onmouseout = MouseOut;
      i ++;
   }
+  
   tileIndex[tiles.length] = 15;
 }
 function setId(elem,indx){
